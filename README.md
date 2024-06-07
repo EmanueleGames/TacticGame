@@ -10,10 +10,12 @@
 **Engine:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unreal Engine  
 **Language:** &nbsp;&nbsp; Unreal Engine Blueprints  
 <br/>
-> All game elements: camera, grid, units, movement, combat system, etc. are synchronized with Unreal Events (Dispatchers and Listeners)  
 > The grid movement is realized with the A* Pathfinding algorithm.  
 > Collision for terrain and line of sight are implemented with Unreal Trace Channels.  
-> Enemy units are controlled by an AI that analyze the best move/spell combination available to each unit in their turn.  
+> The game flow and all the game elements synchronization (camera, grid, units, movement, combat system, etc.)  
+> is realized using Unreal Events (Dispatchers and Listeners).  
+> Enemy units are controlled by an AI that analyze the best move/spell combination available to each unit in their turn  
+> based on a customizable score system.  
   
 ## Features
 * Game has a Debug mode and four pre-built combat scenarios.  
