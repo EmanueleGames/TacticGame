@@ -14,8 +14,8 @@
 > Collision for terrain and line of sight are implemented with Unreal Trace Channels.  
 > The game flow and all the game elements synchronization (camera, grid, units, movement, combat system, etc.)  
 > is realized using Unreal Events (Dispatchers and Listeners).  
-> Enemy units are controlled by an AI that analyze the best move/spell combination available to each unit in their turn  
-> based on a customizable score system.  
+> Enemy units are controlled by an AI that analyze the best move/spell combination  
+> available to each unit in their turn based on a customizable score system.  
   
 ## Features
 * Game has a Debug mode and four pre-built combat scenarios.  
