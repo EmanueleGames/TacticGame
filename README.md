@@ -10,15 +10,15 @@
 **Engine:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unreal Engine  
 **Language:** &nbsp;&nbsp; Unreal Engine Blueprints  
 <br/>
-> All the game elements: camera, grid, units, movement, combat system, etc. are synchronize with Unreal Events (Dispatchers and Listeners)  
-> The movement is realized with the A* Pathfinding algorithm  
+> All game elements: camera, grid, units, movement, combat system, etc. are synchronized with Unreal Events (Dispatchers and Listeners)  
+> The grid movement is realized with the A* Pathfinding algorithm.  
 > Collision for terrain and line of sight are implemented with Unreal Trace Channels.  
 > Enemy units are controlled by an AI that analyze the best move/spell combination available to each unit in their turn.  
   
 ## Features
-* Game has a Debug mode and four pre-built combat scenarios  
+* Game has a Debug mode and four pre-built combat scenarios.  
 * Terrain, Units, Spells can all be customized in the Scene and in the corresponding Data Structures.  
-* Camera controls: WASD for movement, QE for rotation  
+* Camera controls: WASD for movement, QE for rotation.  
 * Everything else (Menus, Tile/Unit selection, movement, etc.) is handled with mouse left and right click.  
   
 ## Disclaimer
