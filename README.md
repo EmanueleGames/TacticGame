@@ -18,7 +18,8 @@
 > available to each unit in their turn based on a customizable score system.  
   
 ## Features
-* Game has a Debug mode and four pre-built combat scenarios.  
+* Game has a Debug mode and four pre-built combat scenarios.
+* An extended menu system realized with Widgets to navigate all the game options and features.  
 * Terrain, Units, Spells can all be customized in the Scene and in the corresponding Data Structures.  
 * Camera controls: WASD for movement, QE for rotation.  
 * Everything else (Menus, Tile/Unit selection, movement, etc.) is handled with mouse left and right click.  
